@@ -1,0 +1,4 @@
+emoji
+pillowmd
+jieba>=0.42.1
+pypinyin>=0.54.0
