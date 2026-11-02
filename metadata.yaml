@@ -1,8 +1,8 @@
-name: astrbot_plugin_outputpro
-display_name: 输出增强
-short_desc: 输出增强 - AstrBot 输出管道：文本清洗/表情映射/文转语音/智能引用/分段回复
+name: astrbot_plugin_outputpro_yaya
+display_name: 输出增强（娅娅版）
+short_desc: 输出增强（娅娅版） - AstrBot 输出管道：文本清洗/表情映射/文转语音/智能引用/分段回复
 desc: |
-  # 输出增强
+  # 输出增强（娅娅版）
 
   AstrBot 发送前的「最后一公里」输出管道：把一条消息从原始文本到最终呈现，拆成 14 个可独立开关的阶梯。
 
@@ -13,7 +13,7 @@ help: 略
 version: v2.2.9
 astrbot_version: ">=3.4.0"
 author: xiaoxi2760
-repo: https://github.com/xiaoxi2760/astrbot_plugin_outputpro
+repo: https://github.com/xiaoxi2760/astrbot_plugin_outputpro_yaya
 social_link: https://github.com/xiaoxi2760
 tags:
   - 输出增强

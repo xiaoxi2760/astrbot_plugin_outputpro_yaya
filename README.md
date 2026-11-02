@@ -1,9 +1,9 @@
 
 <div align="center">
 
-![:name](https://count.getloli.com/@astrbot_plugin_outputpro?name=astrbot_plugin_outputpro&theme=minecraft&padding=6&offset=0&align=top&scale=1&pixelated=1&darkmode=auto)
+![:name](https://count.getloli.com/@astrbot_plugin_outputpro_yaya?name=astrbot_plugin_outputpro_yaya&theme=minecraft&padding=6&offset=0&align=top&scale=1&pixelated=1&darkmode=auto)
 
-# astrbot_plugin_outputpro
+# astrbot_plugin_outputpro_yaya
 
 _✨ 输出增强 ✨_  
 
@@ -24,7 +24,9 @@ _✨ 输出增强 ✨_
 
 ## 🔧 本仓库版本说明
 
-本插件源自 [Zhalslar/astrbot_plugin_outputpro](https://github.com/Zhalslar/astrbot_plugin_outputpro)（原仓库与作者账号均已失效），本仓库为继续维护的存档版本，遵循原项目 **GPL-3.0** 协议，原作者的完整署名保留在 [LICENSE](LICENSE) 与文末致谢中。
+本插件源自 [Zhalslar/astrbot_plugin_outputpro](https://github.com/Zhalslar/astrbot_plugin_outputpro)（原仓库与作者账号均已失效），本仓库（`astrbot_plugin_outputpro_yaya`）为继续维护的存档版本，遵循原项目 **GPL-3.0** 协议，原作者的完整署名保留在 [LICENSE](LICENSE) 与文末致谢中。
+
+仓库名带 `_yaya` 后缀是为了与上游区分：万一原作者日后换号恢复维护，也不会出现同名冲突。
 
 相对上游的主要改动：
 
@@ -339,7 +341,7 @@ LLM 回复时，自动引用被回复的那条消息。
 
 ## 📦 安装
 
-在astrbot的插件市场搜索astrbot_plugin_outputpro，点击安装即可
+在astrbot的插件市场搜索astrbot_plugin_outputpro_yaya，点击安装即可
 
 ## ⌨️ 使用说明
 

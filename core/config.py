@@ -278,7 +278,7 @@ class PluginConfig(ConfigNode):
     recall: RecallConfig
     split: SplitConfig
 
-    _plugin_name: str = "astrbot_plugin_outputpro"
+    _plugin_name: str = "astrbot_plugin_outputpro_yaya"
 
     def __init__(self, cfg: AstrBotConfig, context: Context):
         super().__init__(cfg)
