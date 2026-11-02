@@ -7,10 +7,10 @@
 
 _✨ 输出增强 ✨_  
 
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.html)
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![AstrBot](https://img.shields.io/badge/AstrBot-3.4%2B-orange.svg)](https://github.com/Soulter/AstrBot)
-[![GitHub](https://img.shields.io/badge/作者-Zhalslar-blue)](https://github.com/Zhalslar)
+[![GitHub](https://img.shields.io/badge/作者-xiaoxi2760-blue)](https://github.com/xiaoxi2760)
 
 </div>
 
@@ -19,6 +19,24 @@ _✨ 输出增强 ✨_
 > - 阶梯统一由 `pipeline.steps` 控制  
 > - 是否仅对 LLM 生效由 `pipeline.llm_steps` 控制  
 > - 升级后请重新确认勾选需要启用的步骤
+
+---
+
+## 🔧 本仓库版本说明
+
+本插件源自 [Zhalslar/astrbot_plugin_outputpro](https://github.com/Zhalslar/astrbot_plugin_outputpro)（原仓库与作者账号均已失效），本仓库为继续维护的存档版本，遵循原项目 **GPL-3.0** 协议，原作者的完整署名保留在 [LICENSE](LICENSE) 与文末致谢中。
+
+相对上游的主要改动：
+
+- **智能引用改为始终引用**：新增 `always_quote` 开关（默认开启），凡是经过该步骤的 LLM 回复都会引用被回复的那条消息，不再依赖「被插嘴条数」阈值；关闭后可恢复旧的阈值触发逻辑
+- **不再重复插入引用**：消息链中已存在引用组件（如 AstrBot 自带的 Reply）时自动跳过
+- **平台兼容性**：扩展不支持引用的平台名单（dingtalk / qqofficial_webhook / wecom）
+- **消息入队去重**：避免重复的消息 ID 抬高插嘴计数
+- **插件图标**：替换为角色立绘图标
+
+## 🙏 致谢
+
+- 原作者 [Zhalslar](https://github.com/Zhalslar) —— 输出增强（OutputPro）本体
 
 ## 🤝 介绍
 

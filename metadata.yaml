@@ -1,7 +1,26 @@
 name: astrbot_plugin_outputpro
 display_name: 输出增强
-desc: Astrbot输出管道：图片外显 → 报错处理 → 消息拦截 → 解析艾特 → 文本清洗 → 文本替换 → 表情映射 → 错字模拟 → 文转语音 → 文转图片 → 智能引用 → 合并转发 → 自动撤回 → 分段回复
+short_desc: 输出增强 - AstrBot 输出管道：文本清洗/表情映射/文转语音/智能引用/分段回复
+desc: |
+  # 输出增强
+
+  AstrBot 发送前的「最后一公里」输出管道：把一条消息从原始文本到最终呈现，拆成 14 个可独立开关的阶梯。
+
+  图片外显 → 报错处理 → 消息拦截 → 解析艾特 → 文本清洗 → 文本替换 → 表情映射 → 错字模拟 → 文转语音 → 文转图片 → 智能引用 → 合并转发 → 自动撤回 → 分段回复
+
+  本仓库基于上游 [Zhalslar/astrbot_plugin_outputpro](https://github.com/Zhalslar/astrbot_plugin_outputpro) 继续维护（原仓库与作者账号均已失效），遵循原项目 GPL-3.0 协议，原作者署名保留在 LICENSE 与 README 致谢中。
 help: 略
 version: v2.2.9
-author: Zhalslar
-repo: https://github.com/Zhalslar/astrbot_plugin_outputpro
+astrbot_version: ">=3.4.0"
+author: xiaoxi2760
+repo: https://github.com/xiaoxi2760/astrbot_plugin_outputpro
+social_link: https://github.com/xiaoxi2760
+tags:
+  - 输出增强
+  - 文本清洗
+  - 表情映射
+  - 错字模拟
+  - 文转语音
+  - 文转图片
+  - 智能引用
+  - 分段回复
